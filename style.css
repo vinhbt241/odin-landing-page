@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 22%;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#nav-container #logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+#nav-container ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+#nav-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-description {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    gap: 20px;
+}
+
+#header-description #main-description {
+    padding: 0;
+    flex: 1;
+}
+
+#header-description #main-description h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+#header-description #main-description p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#header-description #main-description button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+#header-description #header-img {
+    width: 550px;
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 22%;
+}
+
+#illustration h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    padding: 0;
+    margin: 40px 0;
+}  
+
+#illustration ul {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+#illustration li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#illustration .illustration-box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+#quote {
+    width: 80%;
+    padding: 200px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+#quote #author{
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 10px;
+}
